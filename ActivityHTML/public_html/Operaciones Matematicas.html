@@ -1,0 +1,113 @@
+<html>
+    <head>
+        <title> Operaciones Matematicas: Suma, Resta, Division y Multiplicacion  </title>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+        <link rel="stylesheet" href="assets/css/main.css" />
+        <noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+
+        <script type="text/javascript" >
+
+            function Suma()
+            {
+                var valorA = parseInt(prompt('Ingrese el primer Valor:'));
+                var valorB = parseInt(prompt('Ingrese el segundo Valor:'));
+                var resultado = valorA + valorB;
+                document.getElementById('resultado').value = (valorA + "  +  " + valorB + " = " + resultado);
+
+            }
+
+            function Resta()
+            {
+                var valorA = parseInt(prompt('Ingrese el primer Valor'));
+                var valorB = parseInt(prompt('Ingrese el Segundo Valor'));
+                var resultado = valorA - valorB;
+                document.getElementById('resultado').value = (valorA + "  -  " + valorB + " = " + resultado);
+            }
+
+            function Division()
+            {
+                var valorA = parseInt(prompt('Ingrese el primer Valor'));
+                var valorB = parseInt(prompt('Ingrese el segundo Valor'));
+                var resultado = valorA / valorB;
+                document.getElementById('resultado').value = (valorA + "  /  " + valorB + " = " + resultado);
+            }
+
+            function Multiplicacion()
+            {
+                var valorA = parseInt(prompt('Ingrese el primer Valor:'));
+                var valorB = parseInt(prompt('Ingrese el segundo Valor:'));
+                var resultado = valorA * valorB;
+                document.getElementById('resultado').value = (valorA + "  *  " + valorB + " = " + resultado);
+
+            }
+        </script>
+
+    </head>
+    <body class="is-preload">
+        <div id="page-wrapper">
+
+            <!-- Header -->
+            <header id="header">
+                <h1 id="logo" >Ingeniería De Software</h1>
+                <nav id="nav">
+                    <ul>
+                        <li><a href="index.html">Inicio</a></li>
+                        <li>
+                            <a href="#">Tipos de Layouts</a>
+                            <ul>
+                                <li><a href="left-sidebar.html">Barra Lateral Izquierda</a></li>
+                                <li><a href="right-sidebar.html">Barra Lateral Derecha</a></li>
+                                <li><a href="no-sidebar.html">Sin Barra Lateral</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="elements.html">Etiquetas HTML5</a></li>
+                        <li role="presentation"><a href="Operaciones Matematicas.html" > O.Matematicas</a></li>
+                        <li role="presentation"><a href="Ventanas Emergentes.html" > V.Emergentes</a></li>
+                        <li><a href="#" class="button primary">Creditos</a></li>
+                    </ul>
+                </nav>
+            </header>
+            <!-- Main -->
+            <div id="main" class="wrapper style1">
+                <div class="container">
+                    <header class="major">
+                        <h2>Operaciones Matematicas: Suma, Resta, División y Multiplicación</h2>
+                    </header>
+                    <div style="text-align:">
+                        <p>Resultado:      
+                            <input name=alert"resultado" type="text" id="resultado" size="80" align="center"/>
+                    </div>
+                    <div style="text-align: center;width:1220px">
+                        <input type="button" name="btn_suma" id="btn_suma"   value="Suma"           onClick="Suma()" />
+                        <input type="button" name="btn_resta" id="btn_resta" value="Resta"          onClick="Resta()"/>
+                        <input type="button" name="btn_divi" id="btn_divi" value="División"       onClick="Division()"/>
+                        <input type="button" name="btn_multi" id="btn_multi" value="Multiplicación"    onClick="Multiplicacion()"/>
+                    </div>
+                </div>
+            </div>
+            <!-- Footer -->
+            <footer id="footer">
+                <ul class="icons">
+                    <li><a href="https://twitter.com" class="icon alt fa-twitter"><span class="label">Twitter</span></a></li>
+                    <li><a href="https://www.facebook.com" class="icon alt fa-facebook"><span class="label">Facebook</span></a></li>
+                    <li><a href="https://co.linkedin.com" class="icon alt fa-linkedin"><span class="label">LinkedIn</span></a></li>
+                    <li><a href="https://co.linkedin.com" class="icon alt fa-instagram"><span class="label">Instagram</span></a></li>
+                    <li><a href="https://github.com" class="icon alt fa-github"><span class="label">GitHub</span></a></li>
+                    <li><a href="https://accounts.google.com/signin" class="icon alt fa-envelope"><span class="label">Gmail</span></a></li>
+                </ul>
+            </footer>
+
+        </div>
+        <!-- Scripts -->
+        <script src="assets/js/jquery.min.js"></script>
+        <script src="assets/js/jquery.scrolly.min.js"></script>
+        <script src="assets/js/jquery.dropotron.min.js"></script>
+        <script src="assets/js/jquery.scrollex.min.js"></script>
+        <script src="assets/js/browser.min.js"></script>
+        <script src="assets/js/breakpoints.min.js"></script>
+        <script src="assets/js/util.js"></script>
+        <script src="assets/js/main.js"></script>
+
+    </body>
+</html>
